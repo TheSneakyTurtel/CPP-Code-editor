@@ -1,0 +1,12 @@
+{
+	"include": ["src/**/*.ts"],
+	"exclude": ["node_modules"],
+	"compilerOptions": {
+		"watch": true,
+		"strict": true,
+		"target": "es2015",
+		"module": "ES2015",
+		"lib": ["DOM", "ES2020"],
+		"outDir": "./dist"
+	}
+}
